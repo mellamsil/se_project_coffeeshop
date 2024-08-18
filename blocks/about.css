@@ -9,6 +9,7 @@
 
   100% {
     transform: scale(1, 1.5);
+    opacity: 0;
   }
 }
 
@@ -29,12 +30,12 @@
   font-size: 44px;
   line-height: 52px;
   color: white;
-  z-index: 2;
+  z-index: 1;
   max-width: 251px;
 }
 
 .about__content {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
   font-weight: normal;
@@ -50,7 +51,7 @@
   position: absolute;
   left: -129px;
   top: -152px;
-  z-index: 1;
+  z-index: -1;
 }
 
 .about__circle_animation_blurred {
@@ -62,7 +63,7 @@
 
 .about__paragraph {
   margin: 0;
-  font-family: "inter", "Arial", sans-serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
