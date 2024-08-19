@@ -39,6 +39,11 @@
   line-height: 20px;
 }
 
+.form__button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
 .form__checkbox {
   border-radius: 2px;
   width: 20px;
