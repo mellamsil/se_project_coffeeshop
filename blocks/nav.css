@@ -27,3 +27,7 @@
 .nav__link:hover {
   color: #2f80ed;
 }
+
+.nav__link_type_translate .nav__link {
+  transition-timing-function: delay;
+}
