@@ -41,6 +41,7 @@
   font-weight: normal;
   font-style: normal;
   max-width: 660px;
+  flex-grow: 1;
 }
 
 .about__circle {
