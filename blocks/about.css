@@ -8,7 +8,7 @@
   }
 
   100% {
-    transform: scale(1, 1.5);
+    transform: scale(1.5);
     opacity: 0;
   }
 }
@@ -35,6 +35,7 @@
 }
 
 .about__content {
+  margin: 20px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
@@ -70,6 +71,7 @@
   font-size: 20px;
   line-height: 30px;
   color: white;
+  margin-bottom: 20px;
 }
 
 .about__paragraph:last-child {
