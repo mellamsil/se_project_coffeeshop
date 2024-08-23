@@ -15,8 +15,8 @@
   margin-left: auto;
 }
 
-.footer__social_heading {
-  margin: 0 20px;
+.footer__social-heading {
+  margin: 0;
   font-family: "inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -58,11 +58,13 @@
   text-decoration: none;
   display: flex;
   gap: 10px;
+  opacity: 100%;
+  transition: opacity 0.3s linear;
 }
 
 .footer__social-link:hover {
   color: #c1c1c1;
-  transform: scaleX(1.2);
+  opacity: 70%;
 }
 
 .footer__copyright {

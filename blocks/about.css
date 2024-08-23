@@ -35,7 +35,6 @@
 }
 
 .about__content {
-  margin: 20px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
@@ -71,5 +70,8 @@
   font-size: 20px;
   line-height: 30px;
   color: white;
+}
+
+.about__paragraph:last-child {
   margin-bottom: 20px;
 }
