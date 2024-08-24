@@ -38,7 +38,7 @@
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
-  margin: 0;
+  margin: 24px 0;
 }
 
 .recipes__iframe {
