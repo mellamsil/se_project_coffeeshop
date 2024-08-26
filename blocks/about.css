@@ -14,7 +14,7 @@
 }
 
 .about {
-  padding: 119px 80px 173px 80px;
+  padding: 100px 80px 173px 80px;
   display: flex;
   justify-content: space-between;
   background-color: #0a2850;
@@ -42,6 +42,10 @@
   font-style: normal;
   max-width: 660px;
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 19px;
 }
 
 .about__circle {
@@ -63,7 +67,7 @@
 }
 
 .about__paragraph {
-  margin: 20px;
+  margin: 0;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
